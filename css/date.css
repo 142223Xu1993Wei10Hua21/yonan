@@ -1,0 +1,13 @@
+*{margin:0; padding:0; list-style:none;}
+.myCalendar{width:210px; border:1px solid #000; position:relative; top:0; left:0; display:block}
+.myCalendar a{position:absolute;  top:5px; text-decoration:none; color:#000;}
+.myCalendar .prev{left:5px;}
+.myCalendar .next{right:5px;}
+.myCalendar h2{width:210px; height:30px; line-height:30px; text-align:center; border-bottom:1px solid #666;}
+.myCalendar ol{overflow:hidden; border-bottom:1px solid #666;}
+.myCalendar ol li{float:left; width:30px; height:30px; text-align:center; line-height:30px;}
+.myCalendar ul{overflow:hidden; border-bottom:1px solid #666;}
+.myCalendar ul li{float:left; width:30px; height:30px; text-align:center; line-height:30px;}
+.myCalendar ol li.week_end{color:red;}
+.myCalendar ul li.today{color:red;}
+.myCalendar ul li.past{color:#999;}

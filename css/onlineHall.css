@@ -1,0 +1,402 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 16px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 538px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+	
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.midPic{
+    z-index: 1;
+}
+.wordSupernatant>div,.wordSupernatant>img{
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+}
+.wordDescribe{
+    margin: 0 auto;
+    height: 145px;
+    writing-mode: vertical-rl;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+    writing-mode: tb-rl;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+    font-size: 16px;
+    /* position: absolute; */
+    margin-right: -26px;
+    margin-top: 40px;
+    line-height: 200%;
+    /* width: 26%!important; */
+}
+
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.knowMore{
+    width: 16%!important;
+    font-size: 16px;
+    background:  rgb(206,16,43);
+    color: #ffffff;
+    text-align: center;
+    padding: -82px 0;
+    height: 74px;
+    /* line-height: 74px; */
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.ya-notice-tab {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+.ya-notice-tab a:hover, .ya-notice-tab a.active {
+    background:  rgb(206,16,43);
+    color: #fff;
+}
+.ya-notice-tab a:first-child {
+    /*margin-right: 10px;*/
+}
+.ya-notice-tab a {
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgb(206,16,43);
+    width: 134px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(206,16,43);
+    cursor: pointer;
+    font-size: 16px;
+}
+.ya-notice-tab a i.ya-notice-iconl {
+    left: -120px;
+}
+.ya-notice-tab a i {
+    position: absolute;
+    top: 10px;
+    width: 101px;
+    height: 7px;
+    background: url(../images/indexList/icon-line.png) no-repeat;
+    background-size: 100%;
+}
+.ya-notice-tab a i.ya-notice-iconr {
+    right: -120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+.nextContent{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ECECEC;
+    margin-bottom: 56px;
+}
+.secondC{
+    overflow: hidden;
+    width: 96%;
+    margin: auto;
+    padding: 2% 0;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 0;
+
+}
+.secondC>div{
+    float: left;
+    width: 50%;
+	 display: -webkit-box;  
+    display: -moz-box;    
+    display: -ms-flexbox;
+	display: -webkit-flex; 
+    display: flex;
+    justify-content: center;
+    /* padding: 0 9%; */
+    border: 1px solid #E9E9E9;
+    border-left: transparent;
+    border-top: transparent;
+    padding: 3% 0;
+   height: 171px;
+}
+.innerLeft>img{
+         width: 80%;
+    margin-top: 4px;
+}
+.nameTop{
+      color: rgb(206,16,43);
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+	
+}
+.innerRight ul{
+    overflow: hidden;
+}
+.innerRight ul li{
+    font-size: 16px;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.innerRight ul li>p{
+    width:77%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+.innerRight ul li>p>a{
+    font-size: 16px;
+    color:#333333;
+}
+.innerRight ul li>p>a:hover{
+    color: rgb(206,16,43)!important;
+}
+.innerLeft{
+    margin-right: 36px;
+	    width: 12%;
+}
+.longWord{
+    width: 100%;
+    margin: auto;
+}
+.soloStyle{
+    margin-left: 16%;
+}
+
+.clickLook span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clickLook span:first-child{
+    margin-right: 10px;
+}
+.clickLook{
+    position: absolute;
+    right: 39px;
+}
+.moreW{
+    border-bottom: 1px solid #CACACA;
+    margin-right: 5px;
+}
+.transverseLine{
+    display: block;
+    width: 17.5%;
+    height: 2px;
+    background:  rgb(206,16,43);
+    margin-left: 35px;
+    margin-bottom: 9px;
+}
+.innerRight{
+    position: relative;
+    width: 56%;
+}
+.thirdBox{
+    border-bottom: transparent!important;
+}
+.fourthBox{
+    border-right: transparent!important;
+    border-bottom: transparent!important;
+}
+.secondBox{
+    border-right: transparent!important;
+}
+.lastTu>div{
+display: inline-block;
+}
+.lastTu{
+    padding: 36px 0px;
+   padding-top:10px\0;
+}
+.lastTu>div:first-child{
+    margin-bottom: 20px;
+}
+.lastTu>div:last-child{
+    width: 27%;
+    margin-right: 0px;
+}
+.lastTu>div:first-child>img {
+    margin-top: 0;
+    position: relative;
+    top: -33px;
+	top:46px\0;
+}
+.imgWrapper>img{
+    width: 100%;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 276px;
+    top: 94px;
+}
+
+.innerC{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 48px 0;
+}
+.innerC>ul>li{
+    float: left;
+    width: 33.33%;
+    margin-bottom: 22px;
+}
+.innerC>ul>li>a>div{
+    width: 89%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid #F1F1F1;
+    border-top: 2px solid  rgb(206,16,43);
+}
+.changeHall{
+    border: 1px solid #E9E9E9;
+}
+.innerC>ul>li>a>div>img{
+    width: 100%;
+}
+.innerC>ul>li>a>div>div{
+       text-align: center;
+    color: rgb(206,16,43);
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.innerSaft{
+    width: 93%;
+    overflow: hidden;
+    margin: auto;
+    /* padding: 20px 0; */
+    padding-top: 39px;
+}
+.innerSaft>ul>li{
+    float: left;
+    width: 25%;
+    margin-bottom: 37px;
+}
+.innerSaft>ul>li>div{
+    width: 90%;
+    margin: auto;
+}
+.innerSaft>ul>li>div>a>img{
+    width: 48%;
+    display: block;
+    margin: auto;
+}
+.innerSaft>ul>li>div>a>div{
+   text-align: center;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.openUser  li a{
+    font-size: 16px;
+    cursor: pointer;
+    color:#333333;
+}
+.openUser  li a:hover{
+    color:  rgb(206,16,43);
+}
+#china-map{
+    width: 1000px;
+    height: 709px;
+    margin: auto;
+}
+.onlineOning {
+    /*padding: 63px;*/
+    padding-top: 20px;
+}
+#china-map>div:first-child>canvas{
+    width: 100%!important;
+}
+.cityList{
+    margin: 0 4px;
+    font-size: 16px;
+    word-wrap : break-word;
+    word-break:break-all;
+    display: inline-block;
+    float: left;
+}
+.businessDepart{
+    width: 400px;
+}
+.moreList{
+    height: 196px;
+    line-height: 196px;
+    border-top: 1px solid #F1F1F1!important;
+}
+.moreList>img{
+    width: 64px!important;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+    margin-top: 77px;
+}
+em{
+    margin: 0 1em;
+}
+
+.specialLeft{
+    margin-left: 101px!important;
+    margin-right: 29px;
+	    width: 6%;
+}
+.specialRight{
+
+	width:75%!important
+}
+.lastClick{
+	right:0
+}

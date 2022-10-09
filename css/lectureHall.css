@@ -1,0 +1,251 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 16px}
+ul>li{list-style: none;}
+a{
+    text-decoration: none;
+    color: #333333!important;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+       height: 716px;
+    overflow: hidden;
+	margin-bottom:0!important;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.breadcrumb {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    background-color: #ffffff;
+    color: #606060;
+    font-size: 16px;
+    margin-top: 0%!important;
+    margin-bottom: 20px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.midPic{
+    z-index: 1;
+}
+.wordSupernatant>div,.wordSupernatant>img{
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+}
+.lectureBox{
+    width: 100%;
+    margin: auto;
+    margin-top: 51px;
+}
+.lectureBox:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.lectureBox>div{
+    width: 50%;
+    float: left;
+}
+.lectureBox>div>div{
+    width: 98%;
+    margin: auto;
+    height: 550px;
+    position: relative;
+    margin-bottom: 19px;
+}
+.leftBox>div{
+    border: 1px solid #F8F8F8;
+}
+.topTitle{
+    position: absolute;
+    top: -20px;
+    left: 38%;
+    width: 120px;
+    background: #ffffff;
+}
+.topTitle>img{
+    width:90% ;
+    display: block;
+    margin: auto;
+}
+.topTitle>span{
+    top:10px;
+    left: 30%;
+    color: #ffffff;
+    position: absolute;
+}
+.clickLook{
+    position: absolute;
+    bottom: 0;
+    right: 23px;
+}
+.clickLook span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clickLook span:first-child{
+    margin-right: 10px;
+}
+.clickLook{
+    padding-left: 6%;
+    margin-bottom: 12px;
+}
+
+.wordContent{
+    width: 90%;
+    margin: auto;
+    padding-top: 29px;
+    font-size: 12px;
+}
+.wordContent>p{
+    font-size: 12px;
+}
+.wordContent ul li{
+    border-bottom: 1px solid #ECECEC;
+    overflow: hidden;
+}
+.wordContent ul li span{
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+}
+.wordContent ul li span:last-child{
+    float: right;
+}
+.wordContent ul li span:first-child{
+    display: inline-block;
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.wordContent ul li span:first-child:hover{
+    color: rgb(206,16,43);
+}
+.rightBox>div>div{
+    position: relative;
+    border: 1px solid #F8F8F8;
+    padding-bottom: 49px;
+}
+.topBox{
+    margin-bottom: 40px;
+}
+.experienceCon{
+    width: 91%;
+    margin: auto;
+    margin-top: 36px;
+}
+.biJ>p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.personInfo{
+    margin-top: 20px;
+}
+.personInfo>img{
+    width: 70px;
+    border-radius: 100%;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.info>div{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.name{
+    font-weight: bold;
+    font-size: 16px;
+}
+.personIntroduce>p>span{
+       font-size: 16px;
+    text-align: justify;
+    display: inline-block;
+}
+.personIntroduce{
+    margin-top: 20px;
+}
+.knowledgeList{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 46px;
+}
+.knowledgeList>ul>li{
+    float: left;
+    width: 33.33%;
+}
+.knowledgeList>ul>li>a>div{
+    width: 94%;
+    margin: auto;
+    padding-top: 10px;
+    border:1px solid #EDEDED;
+    border-top: 2px solid   rgb(206,16,43);
+}
+.knowledgeList>ul>li>a>div>img{
+    width: 100%;
+}
+.knowledgeList>ul>li>a>div>div{
+       text-align: center;
+    color: rgb(206,16,43);
+    padding: 6px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.breadcrumb {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    background-color: #e9e9e9;
+    color: #606060;
+    font-size: 16px;
+    margin-top: 29px;
+}
+
+.breadcrumb a {
+    color: #606060
+}
+.breadcrumb a:hover {
+    color: rgb(206,16,43)!important;
+}
+.breadcrumb a.active {
+    color:  rgb(206,16,43)!important;
+}
+
+.breadcrumb span {
+    padding: 0 10px
+}

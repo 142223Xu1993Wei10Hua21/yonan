@@ -1,0 +1,152 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 858px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.midPic{
+    z-index: 1;
+}
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.fundInfo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.innerFundInfo{
+    width: 100%;
+    margin: auto;
+}
+.topItem{
+    border-bottom: 1px solid #E9E9E9;
+}
+.innerFundInfo ul li{
+    margin-bottom: 10px;
+}
+.innerFundInfo ul li>div{
+    border: 1px solid #E9E9E9;
+}
+.topItem{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.topItem span img{
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.topItem span:first-child {
+    margin-right:10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.topName{
+	margin-left:20px
+}
+.topItem span{
+    margin-right: 30px;
+}
+.currencyB>img{
+    margin-bottom: 2px;
+}
+.bottomItem{
+    overflow:hidden ;
+    padding: 10px 0;
+}
+.bottomItem>div:first-child {
+    width: 40%;
+}
+.bottomItem>div:first-child>div{
+    display: inline-block;
+    margin: 0 20px;
+}
+.bottomItem>div:last-child{
+    width: 60%;
+    border-left: 1px solid #E9E9E9;
+    text-align: left;
+}
+.bottomItem>div:last-child>div{
+    width: 50%;
+    margin: auto;
+}
+.bottomItem>div{
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding: 31px 0;
+}
+.rateValue,.accumulativeValue{
+    color: rgb(206,16,43);
+    font-size: 30px;
+    font-weight: bold;
+}
+.rateValue>span{
+color: rgb(206,16,43);
+    font-size: 30px;
+    font-weight: bold;
+}
+.buyMoney{
+    color: rgb(206,16,43);
+    font-weight: bold;
+	    font-size: 18px;
+}
+.guanJ a{
+	border-bottom:1px solid #CDCDCD;
+	color:#333333;
+	font-weight:bold
+}
+.guanJ a:hover{
+    color: rgb(206,16,43);
+    cursor: pointer;
+	font-weight:bold;
+	border-bottom:1px solid rgb(206,16,43);
+}
+.guanJ a:hover{
+    color: rgb(206,16,43);
+}

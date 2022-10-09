@@ -1,0 +1,161 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 538px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.midPic{
+    z-index: 1;
+}
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.businessView{
+    width: 100%;
+    margin-bottom: 40px!important;
+}
+.businessView:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.innerBusiness{
+    width: 100%;
+    margin: auto;
+}
+.innerBusiness ul li{
+    float: left;
+    width: 33.33%;
+}
+.innerBusiness ul li>div{
+    border: 1px solid #E5E5E5;
+    position: relative;
+height: 409px;
+    width: 98%;
+    margin: auto;
+    padding: 31px;
+}
+.wealthManagement>p,.overseasManagement>p,.riskManagement>p{
+       font-size: 16px;
+    line-height: 182%;
+    text-align: justify;
+}
+.businessTitle,.overseasTitle,.riskTitle{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px!important;
+	    color:rgb(206,16,43);
+}
+.n_Name{
+	font-size:18px
+}
+.topTitle{
+      position: absolute;
+    top: -19px;
+    left: 34%;
+    width: 120px;
+    background: #ffffff;
+}
+.topTitle>img{
+    width: 90%;
+    margin:auto;
+    display: block;
+}
+.topTitle>span{
+    position: absolute;
+    color: #ffffff;
+    left: 22%;
+    top: 9px;
+    font-size: 16px;
+
+}
+.clickLook{
+    position: absolute;
+    bottom: 17px;
+    right: 23px;
+    padding-left: 6%;
+    margin-bottom: 12px;
+}
+.clickLook span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clickLook span:first-child{
+    margin-right: 10px;
+}
+.manageList{
+    text-align: center;
+   
+    margin-top: 22px;
+}
+.manageList>div{
+    display: inline-block;
+  
+    cursor: pointer;
+}
+
+.manageList>div a div{
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+}
+.manageList>div img{
+    width: 60px;
+}
+.funManage{
+    margin-right: 80px;
+
+}
+.funManage img{
+       width: 80px!important;
+    height:79x;
+}
+.zcManage img{
+        width: 79px!important;
+      margin-top: 5px;
+}

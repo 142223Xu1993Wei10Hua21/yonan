@@ -1,0 +1,436 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.ya-notice-tab {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+.ya-notice-tab a:hover, .ya-notice-tab a.active {
+    background: rgb(206,16,43);
+    color: #fff;
+}
+.ya-notice-tab a:first-child {
+    /*margin-right: 10px;*/
+}
+.ya-notice-tab a {
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgb(206,16,43);
+    width: 134px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(206,16,43);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ya-notice-tab a i.ya-notice-iconl {
+    left: -120px;
+}
+.ya-notice-tab a i {
+    position: absolute;
+    top: 10px;
+    width: 101px;
+    height: 7px;
+    background: url(../images/indexList/icon-line.png) no-repeat;
+    background-size: 100%;
+}
+.ya-notice-tab a i.ya-notice-iconr {
+    right: -120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.redImportant{
+    color:rgb(206,16,43);
+}
+.exchangeBourse{
+    display: inline-block;
+}
+.naturalPerson{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.naturalP{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #E5E5E5;
+    padding: 30px;
+    padding-left: 40px;
+    padding-bottom: 61px;
+}
+.twoWord{
+    margin: 0 0 0 2.2em;
+}
+.threeWord{
+    margin: 0 0 0 0.53em;
+}
+.naturalP>div span{
+    font-size: 16px;
+    padding-right: 6px;
+}
+.naturalP>div{
+    margin-bottom: 20px;
+}
+.naturalP>div>input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    outline: none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.naturalP>div>input {
+	vertical-align:middle
+}
+	
+ }
+ .naturalP>div>input {
+	vertical-align:middle\0;
+}
+.exchangeBourse input{
+    vertical-align: middle;
+}
+.exchangeBourse>span{
+    margin-right: 20px;
+}
+.tips>p{
+    font-size: 12px;
+}
+.tipsName{
+    font-size: 12px!important;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.hengLine{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #F7F7F7;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.hengLine>div{
+    position: absolute;
+    width: 40px;
+        left: 48.4%;
+    top: -5px;
+    background: #ffffff;
+}
+.hengLine>div>img{
+    width: 16px;
+    display: block;
+    margin: auto;
+}
+.btnSubmit{
+
+
+    cursor: pointer;
+}
+.btnSubmit>img{
+    width: 120px;
+}
+.btnSubmit>span{
+    position: absolute;
+    left: 31%;
+    top: 10px;
+    font-size: 16px!important;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 11px;
+}
+.midLegalP{
+
+    width: 100%;
+    overflow: hidden;
+}
+.midLegalP>div{
+    float: left;
+    width: 50%;
+}
+.leftLegalPerson input,.rightLegalPerson input{
+    /*width: 150px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    font-size: 12px;*/
+	    border: 1px solid #e5e5e5;
+    height: 30px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.leftLegalPerson input,.rightLegalPerson input{
+	width:35%;
+	vertical-align: middle;
+}
+	
+ }
+ .leftLegalPerson input,.rightLegalPerson input{
+	width:35%\0;
+	vertical-align: middle\0;
+}
+.nameStyle{
+    display: inline-block;
+         width: 174px;
+    text-align: right;
+}
+.leftLegalPerson>div,.rightLegalPerson>div{
+    margin-bottom: 20px;
+}
+.colon{
+    font-size: 12px;
+    vertical-align: top;
+}
+.headPicture {
+       width: 108px;
+    margin-left: 61px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.headPicture {
+  width: 120px;
+    margin-left: 50px;
+	}
+}
+@-moz-document url-prefix() {
+.headPicture {
+  width: 120px;
+    margin-left: 50px;
+	}
+}
+.daiLiZ{
+    width: 170px;
+    margin-right: -1px;
+}
+.daiLiF{
+    width: 170px;
+    margin-right: -1px;
+}
+.puPic{
+	    width: 169px;
+}
+.webuploader-element-invisible{
+    height: 99px!important;
+}
+.LegalPerson .nameStyle{
+         width: 186px;
+}
+.tipsLeft{
+    margin-left: 58px;
+}
+.addPic{
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.addPic>img{
+    width: 50px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+.error{
+    display: inline-block;
+}
+.errorContent{
+    font-size: 12px;
+    color: rgb(206,16,43);
+}
+.error>img{
+    width: 13px;
+    vertical-align: middle;
+    margin-right: 6px;
+    padding-bottom: 2px;
+    position: static!important;
+}
+.hid{
+    display: none!important;
+}
+.headPic{
+    display: inline-block;
+    width:auto;
+}
+.headPic>img{
+    width: 100px;
+    height: 100px;
+}
+#frontContrary{
+    width: 20%;
+}
+
+.tijiaobtn{
+	   width: 120px!important;
+    height: 42px!important;
+    font-size: 18px!important;
+    color: #ffffff;
+    font-weight: bold;
+    /* letter-spacing: 11px; */
+    /* background: url(../images/onlineHall/titleBg.png) no-repeat scroll center; */
+    text-align: center;
+    align-items: center;
+    background: rgb(206,16,43);
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+}
+
+/*上传样式*/
+.addPic{ position:relative; display:inline-block;/* height:32px;*/height:100px;width:100px; vertical-align:middle; zoom:1; *display:inline;}
+	.addPic .upload-btn{ display:inline-block; /*height:32px;*/ zoom:1; *display:inline;width:100px;height:100px;/*background: url('../images/onlineHall/add.png') no-repeat scroll center;*/cursor: pointer;     background-position: 25px 20px;}
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.addPic .upload-btn{
+		position:relative;
+		top:-53px;
+		z-index:999;
+		background-color:#ffffff;
+		opacity:0!important;
+		}
+	}
+	@-moz-document url-prefix() {
+	.addPic .upload-btn{
+		position:relative;
+		top:-53px;
+		z-index:999;
+		background-color:#ffffff;
+		opacity:0!important;
+		}
+	}
+	}
+	
+	.addPic .upload-progress{ position:absolute; top:0; left:0; padding:2px 5px; width:115px; height:26px; border:1px solid #d7d7d7; background:#fff; overflow:hidden; }
+	.addPic .upload-progress .txt{ display:block; padding-right:10px; font-weight:normal; font-style:normal; font-size:11px; line-height:18px; height:18px; text-overflow:ellipsis; overflow:hidden; }
+	.addPic .upload-progress .bar{ position:relative; display:block; width:112px; height:4px; border:1px solid #1da76b; }
+	.addPic .upload-progress .bar b{ display:block; width:0%; height:4px; font-weight:normal; text-indent:-99em; background:#28B779; overflow:hidden; }
+	.addPic .upload-progress .close{ position:absolute; display:block; top:1px; right:1px; width:14px; height:14px; line-height:14px; text-align:center; cursor:pointer; overflow:hidden; }
+    .addPic .upload-progress .close:hover{ text-decoration:none; }
+    .addPic .upload-progress .close i{ color:#535353; font-size:10px; line-height:14px; -webkit-transform:scale(0.833); }
+    .webuploader-element-invisible{display: block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 0px;
+    background: none;
+    border: none;
+background: url('../images/onlineHall/add.png') no-repeat scroll center;
+    }
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.addPic{
+		background-image:url(../images/onlineHall/add.png) !important;
+		background-repeat: no-repeat!important;
+		z-index:100000;
+		background-position:53% 50%;
+	}
+	
+	}
+	@-moz-document url-prefix() {
+	.addPic{
+		background-image:url(../images/onlineHall/add.png) !important;
+		background-repeat: no-repeat!important;
+		z-index:100000;
+		background-position:53% 50%;
+	}
+	
+	}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.webuploader-element-invisible{
+width:98px!important;
+}
+}
+@-moz-document url-prefix() {
+
+.webuploader-element-invisible{
+width:98px!important;
+}
+}
+
+    .webuploader-pick{
+	    font-size:0px;
+    }
+.upload-btn>div:last-child{
+ height:100%!important;
+ width:100%!important;
+}
+
+#sendCode_zrrkh,#sendCode_frkh {
+    padding: 0 8px;
+    border: 1px solid #e5e5e5;
+    margin-left: 10px;
+    cursor: pointer;
+    /* width: 89px; */
+    display: inline-block;
+    /* height: 25px; */
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+}
+.soloDiv>div{
+margin-bottom:20px
+}
+.soloDiv input{
+    border: 1px solid #e5e5e5;
+    height: 30px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.soloDiv input{
+	width:22%;
+	 vertical-align: middle;
+
+}
+	
+ }
+ .soloDiv input{
+	width:22%\0;
+	 vertical-align: middle\0;
+
+}
+.soloDiv{
+
+    margin-top: -18px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.Validform_wrong{
+	padding-top:3px;
+	margin-top:-1px
+}
+	
+ }
+ .Validform_wrong{
+	padding-top:3px\0;
+	margin-top:-1px\0
+}

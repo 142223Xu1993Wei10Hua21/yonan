@@ -1,0 +1,312 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 538px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+#qiD{
+	width:58%;
+}
+.midPic{
+    z-index: 1;
+}
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.topTitle{
+    position: absolute;
+    top: -19px;
+    left: 40%;
+    width: 120px;
+    background: #ffffff;
+}
+.topTitle>img{
+    width: 90%;
+    margin:auto;
+    display: block;
+}
+
+.topTitle>span{
+    position: absolute;
+    color: #ffffff;
+       left: 20%!important;
+    top: 15%!important;
+
+}
+@-moz-document url-prefix() {
+.topTitle > span {
+    top:22%!important;
+	left:17%!important;
+}
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.topTitle>span{
+	    left: 18%!important;
+    top: 27%!important;
+}
+}
+.topTitle>span{
+	    left: 18%\0!important;
+    top: 27%\0!important;
+}
+.topTwoBox{
+    width: 100%;
+}
+.topTwo:after{
+    content: '';
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.topTwo{
+    width: 100%;
+    margin: auto;
+}
+.topTwo>ul>li{
+    width: 50%;
+    float: left;
+}
+.topTwo>ul>li>div{
+    width: 98%;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    position: relative;
+      height: 519px;
+}
+@-moz-document url-prefix() {
+.topTwo>ul>li>div{
+	 height: 452px;
+}
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.topTwo>ul>li>div{
+	  height:568px;
+	 }
+	}
+	.topTwo>ul>li>div{
+	  height:568px\0;
+	 }
+.clickLook{
+    position: absolute;
+    bottom: 8px;
+    right: 23px;
+    padding-left: 6%;
+    margin-bottom: 12px;
+}
+.clickLook span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clickLook span:first-child{
+    margin-right: 10px;
+}
+.click_Look{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding-left: 0%;
+    margin-bottom: 12px;
+}
+.click_Look span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.click_Look span:first-child{
+    margin-right: 10px;
+}
+.teachingActivities>ul>li,.anti-money>ul>li{
+    border-bottom: 1px solid #e5e5e5;
+    padding:5px;
+}
+.teachingActivities>ul>li a{
+	display:block;
+	width:100%
+}
+.teachingActivities>ul>li>a>span:first-child{
+    display: inline-block;
+          width: 69%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.teachingActivities>ul>li>a>span,.anti-money>ul>li>a>span{
+    font-size: 16px;
+    color: #333333;
+}
+.teachingActivities>ul>li>a>span:first-child:hover{
+    color: rgb(206,16,43);
+    cursor: pointer;
+}
+.teachingActivities>ul>li>a>span:last-child{
+       float: right;
+    margin-top: 5px;
+}
+.anti-money>ul>li>a>span:first-child:hover{
+    color: rgb(206,16,43);
+    cursor: pointer;
+}
+.teachingActivities,.anti-money{
+    padding: 20px;
+    padding-top: 32px;
+}
+.anti-money span:first-child{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+.anti-money span:first-child{
+	    width: 85%!important;
+}
+.anti-money span:last-child{
+	width:13%
+}
+.anti-money>ul>li a{
+	display:block;
+	width:100%
+}
+.aniMoney span {
+    left: 11%!important;
+}
+.midTwo{
+    margin-top: 52px;
+}
+.midTwo ul li>div{
+    height: 200px;
+}
+.laws_Regulations{
+    width: 99%;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 44px;
+}
+.law_regular{
+    width:100%;
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+.lawsRegulations{
+       left: 45%;
+}
+.lawsR{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
+.lawsR ul li{
+    float: left;
+    width: 16.66%;
+}
+.lawsR ul li>div{
+    width: 65%;
+    margin: auto;
+}
+.lawsR ul li>div img{
+    width: 100%;
+}
+.lawsR ul li>div div{
+       text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.midTu{
+    width: 63%;
+    margin: auto;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.midTu>a>img{
+    width: 100%;
+}
+.fixationSize{
+    width: 1200px;
+    margin: auto;
+}
+@media (max-width: 1200px) {
+    .teachingActivities>ul>li>a>span:first-child {
+    display: inline-block;
+    width: 84%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+@media (max-width: 1010px) {
+    .teachingActivities>ul>li>a>span:first-child {
+    display: inline-block;
+    width: 82%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+@media (max-width: 906px) {
+    .teachingActivities>ul>li>a>span:first-child {
+    display: inline-block;
+    width: 81%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+@media (max-width:791px) {
+    .teachingActivities>ul>li>a>span:first-child {
+    display: inline-block;
+    width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}

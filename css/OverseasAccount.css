@@ -1,0 +1,115 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.accountOverseas{
+    width: 100%;
+    margin-top: 44px!important;
+    margin-bottom: 40px!important;
+}
+.accountOverseas:after{
+    visibility: hidden;
+    content: "";
+    clear: both;
+    display: block;
+}
+.innerOverseas{
+    width: 100%;
+    margin: auto;
+}
+.innerOverseas ul li{
+    float: left;
+    width: 33.33%;
+}
+.innerOverseas ul li>div{
+    width: 98%;
+    border: 1px solid #E5E5E5;
+    position: relative;
+    padding: 25px;
+    height: 315px;
+}
+.topTitle{
+    position: absolute;
+    top: -19px;
+    left: 34%;
+    width: 120px;
+    background: #ffffff;
+}
+.topTitle>img{
+    width: 90%;
+    margin:auto;
+    display: block;
+}
+.topTitle>span{
+    position: absolute;
+    color: #ffffff;
+    left: 28%;
+    top: 10px;
+
+}
+.clickLook{
+    position: absolute;
+    bottom: 17px;
+    right: 23px;
+    padding-left: 6%;
+    margin-bottom: 12px;
+}
+.clickLook span{
+    color: #CACACA;
+    font-size: 12px;
+    cursor: pointer;
+}
+.clickLook span:first-child{
+    margin-right: 10px;
+}
+.GuideAccount{
+    margin-top: 11px;
+}
+.askWay{
+    text-align: center;
+}
+.erCode{
+    width: 100%;
+    margin-top: 9px;
+}
+.erCode>img{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+.GuideAccount>p{
+     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 182%;
+    text-align: justify;
+}
+.askWay>div>span{
+    font-size: 12px;
+}
+.publicCode{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}

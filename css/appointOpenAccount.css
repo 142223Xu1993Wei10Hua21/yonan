@@ -1,0 +1,348 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 538px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.midPic{
+    z-index: 1;
+}
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.appointOpen{
+    width: 100%;
+    margin-bottom: 46px;
+}
+.innerOpen{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #EAEAEA;
+    padding: 44px;
+    padding-top: 20px;
+	    margin-bottom: 20px;
+}
+.redImpor{
+    color:  rgb(206,16,43);
+}
+.topForm{
+    overflow: hidden;
+    width: 100%;
+}
+.topForm>div{
+    float: left;
+}
+.innerOpen>div input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #EAEAEA;
+    outline: none;
+   font-size: 16px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.innerOpen>div input{
+  line-height: 37px;
+}
+	
+ }
+ .innerOpen>div input{
+  line-height: 37px\0;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.innerOpen>div input{
+    vertical-align:middle;
+}
+	
+ }
+ .innerOpen>div input{
+    vertical-align:middle\0;
+}
+.innerOpen>div label input {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    /* margin-bottom: 7px; */
+    /* margin-top: -1px; */
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.innerOpen>div label input {
+vertical-align:top;
+}
+	
+ }
+ .innerOpen>div label input {
+vertical-align:top\0;
+}
+.onPosition{
+	margin-bottom:0!important
+}
+.openHu{
+	margin-top:20px
+}
+.innerOpen>div label{
+	margin-right:10px
+}
+.twoWord{
+       margin: 0 0 0 2.13em;
+}
+.threeWord{
+        margin: 0 0 0 0.55em;
+}
+.leftOpen span,.rightOpen span{
+    font-size: 16px;
+    padding-right: 6px;
+}
+
+.leftOpen>div,.rightOpen>div{
+    margin-bottom: 20px;
+}
+.onPosition>div{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.onPosition>div{
+  
+    vertical-align: middle;
+}
+	
+ }
+ .onPosition>div{
+  
+    vertical-align: middle\0;
+}
+.onPosition>div>select {
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 71px; */
+    height: 30px;
+    /* opacity: 0; */
+    outline: none;
+    border: 1px solid #e5e5e5;
+}
+.onPosition .info>div>select {
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 71px; */
+    height: 30px;
+    /* opacity: 0; */
+    outline: none;
+    border: 1px solid #e5e5e5;
+}
+
+.onPosition>div img{
+    position: absolute;
+    right: 7px;
+    top: 16px;
+}
+.onPosition>div input{
+    width: 71px;
+    font-size: 16px;
+    outline: none;
+}
+.leftOpen textarea{
+    border: 1px solid #EAEAEA;
+    width: 223px;
+    height: 100px;
+    vertical-align: text-top;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
+.yzCode input{
+    width: 100px!important;
+    font-size: 16px;
+    outline: none;
+}
+.leftOpen {
+    width: 64%!important;
+}
+.rightOpen {
+    width: 36% !important;
+    padding-left: 16px;
+}
+.changeKind{
+    margin-left: -24px;
+}
+.hengLine{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #F7F7F7;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.hengLine>div{
+    position: absolute;
+    width: 40px;
+       left: 48.3%;
+    top: -5px;
+    background: #ffffff;
+}
+#sendCode{
+	padding: 0 8px;
+    border: 1px solid #e5e5e5;
+    margin-left: 10px;
+    cursor: pointer;
+    /* width: 89px; */
+    display: inline-block;
+    /* height: 25px; */
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+#sendCode{
+  line-height: 37px;
+}
+	
+ }
+ #sendCode{
+  line-height: 37px\0;
+}
+.bg{
+	background:rgb(206,16,43);
+	color:#ffffff;
+}
+.bg1{
+	background:#CCCCCC;
+	color:#ffffff;
+}
+.hengLine>div>img{
+    width: 16px;
+    display: block;
+    margin: auto;
+}
+.btnSubmit{
+   
+    cursor: pointer;
+}
+.btnSubmit>img{
+    width: 120px;
+}
+.btnSubmit>span{
+    position: absolute;
+    left: 31%;
+    top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 11px;
+}
+
+.error{
+     display: inline-block;
+ }
+.hid{
+    display: none!important;
+}
+.errorContent{
+    font-size: 16px;
+    color: rgb(206,16,43);
+}
+.error>img{
+    width: 13px;
+    vertical-align: middle;
+    margin-right: 6px;
+    padding-bottom: 2px;
+    position: static!important;
+}
+
+.tijiaobtn{
+	    width: 120px!important;
+    height: 42px!important;
+    font-size: 18px!important;
+    color: #ffffff;
+    font-weight: bold;
+    /* letter-spacing: 11px; */
+    /* background: url(../images/onlineHall/titleBg.png) no-repeat scroll center; */
+    text-align: center;
+    align-items: center;
+    background: rgb(206,16,43);
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+}
+.Validform_checktip {
+    margin-left: 5px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+}
+#xxdz{
+	display:block;
+	    margin: 5px 5px 21px 14.7%;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.Validform_wrong{
+	padding-top:3px;
+	margin-top:-1px
+}
+	
+ }
+ .Validform_wrong{
+	padding-top:3px\0;
+	margin-top:-1px\0
+}
+
+
+/* 选项框 */
+/* select{
+    width:100px;
+    height:30px;
+    border-radius:4px;
+    font-family:'Microsoft YaHei'
+} */

@@ -1,0 +1,1102 @@
+@media (max-width: 960px) {
+    * {
+      font-size: 14px;
+    }
+    body {
+      padding-top: 70px;
+    }
+    body #nav-investor ul {
+      display: block;
+    }
+    body #nav-investor ul li {
+      min-width: 100%;
+    }
+    body .supernatant {
+      width: 100%;
+      left: 50%;
+      top: 50%;
+      margin: 0;
+      height: auto;
+      transform: translate(-50%, -50%);
+    }
+    body .supernatant .closeBtn {
+      margin-right: 15px;
+    }
+    body .supernatant .closeBtn > img {
+      width: 20px;
+    }
+    body.opened .topHead .menuList .switchMenu > ul {
+      display: block;
+      opacity: 1;
+      transform: translate(0, 0);
+      pointer-events: all;
+    }
+    body.opened .topHead .menuList .btn-toggle-menu i {
+      opacity: 0;
+    }
+    body.opened .topHead .menuList .btn-toggle-menu:before {
+      transform: translateX(3px) rotate(45deg);
+    }
+    body.opened .topHead .menuList .btn-toggle-menu:after {
+      transform: translateX(3px) rotate(-45deg);
+    }
+    body .topHead {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 9999;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      height: 70px;
+    }
+    body .topHead .topMark {
+      display: none;
+    }
+    body .topHead .topMark .nameTitle {
+      display: none;
+    }
+    body .topHead .topMark .rightHead {
+      left: 0;
+    }
+    body .topHead .menuList {
+      position: relative;
+      height: auto;
+    }
+    body .topHead .menuList > div {
+      overflow: visible;
+    }
+    body .topHead .menuList .btn-toggle-menu {
+      position: absolute;
+      z-index: 998;
+      top: 50%;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background: #ce102b;
+      transform: translateY(-50%);
+      display: block;
+      border-radius: 4px;
+    }
+    body .topHead .menuList .btn-toggle-menu i,
+    body .topHead .menuList .btn-toggle-menu:before,
+    body .topHead .menuList .btn-toggle-menu:after {
+      position: absolute;
+      left: 5px;
+      right: 5px;
+      top: 7px;
+      content: "";
+      height: 2px;
+      background: #fff;
+      transition: 0.3s;
+      transform-origin: left;
+    }
+    body .topHead .menuList .btn-toggle-menu:after {
+      top: auto;
+      bottom: 7px;
+    }
+    body .topHead .menuList .btn-toggle-menu i {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    body .topHead .menuList .switchMenu {
+      position: relative;
+      z-index: 2;
+    }
+    body .topHead .menuList .switchMenu > img {
+      position: relative;
+      width: 100px;
+      margin: 20px 10px;
+      z-index: 333;
+    }
+    body .topHead .menuList .switchMenu > ul {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: fixed;
+      z-index: 22;
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      display: block;
+      opacity: 1;
+      pointer-events: none;
+      transition: 0.5s;
+      transform: translateY(-100%);
+      background: #fff;
+    }
+    body .topHead .menuList .switchMenu > ul > li {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+    body .topHead .menuList .switchMenu > ul > li a {
+      padding: 10px 0;
+      margin: 15px;
+      border: none;
+      border-bottom: solid 3px transparent;
+      background: #f0f0f0;
+    }
+    body .topHead .menuList .switchMenu > ul > li a:hover {
+      border: none;
+      border-bottom: solid 3px #ce102b !important;
+    }
+    body .topHead .menuList .navbar-ds {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      display: block;
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.3s;
+      transform: translateX(100%);
+    }
+    body .topHead .menuList .navbar-ds .navbar-close {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 999;
+      padding: 10px 15px;
+      background: #000;
+      color: #fff;
+    }
+    body .topHead .menuList .navbar-ds.opened {
+      display: block;
+      opacity: 1;
+      pointer-events: all;
+      transform: translateX(0);
+    }
+    body .topHead .menuList .navbar-ds:after {
+      display: none;
+    }
+    body .topHead .menuList .navbar-ds .sub-nav {
+      width: 100%;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 222;
+    }
+    body .topHead .menuList .navbar-ds .sub-nav .wrap {
+      opacity: 1;
+      height: 100%;
+      padding: 120px 30px 30px;
+    }
+    body .topHead .menuList .navbar-ds .sub-nav .listBtn > ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+    body .topHead .menuList .navbar-ds .sub-nav .listBtn > ul > li {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    body .footer-top .qrcode {
+      display: none;
+    }
+    body .footer-top .footer-l {
+      float: none;
+      width: auto;
+    }
+    body .footer-top .footer-l .friendlink {
+      display: flex;
+    }
+    body .footer-top .footer-l .friendlink li {
+      float: none;
+      padding: 0;
+    }
+    body .footer-top .footer-l .link-bot {
+      padding: 0 15px;
+    }
+    body .footer-top .footer-l .link-bot .linkselect-panel {
+      float: none;
+      width: auto;
+    }
+    body .footer-top .footer-l .link-bot .link-bot-text {
+      float: none;
+      margin: 10px 0 0;
+      height: auto;
+      line-height: 1.2em;
+    }
+    body .footer-top .footer-l .link-bot .link-bot-text span:nth-of-type(2),
+    body .footer-top .footer-l .link-bot .link-bot-text span:nth-of-type(4) {
+      display: none;
+    }
+    body .footer-top .footer-l .link-bot .link-bot-text span:last-of-type {
+      display: block;
+    }
+    body .footer-bot {
+      padding: 15px;
+      line-height: 1.5em;
+    }
+    body .footer-bot > p {
+      text-align: left;
+    }
+    body .footer-bot > p > span {
+      margin: 0;
+    }
+    body .main {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+    }
+    body .main .breadcrumb {
+      line-height: 1.75em;
+    }
+    body .main .breadcrumb span {
+      padding: 0 3px;
+    }
+    body .main .breadcrumb a {
+      white-space: nowrap;
+      font-size: 12px;
+    }
+    body .main .switchList .ya-notice-tab {
+      padding-top: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    body .main .switchList .ya-notice-tab a {
+      flex: 1;
+      display: block;
+      margin: 0;
+      padding: 5px;
+      height: auto;
+      font-size: 12px;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    body .main .tzzyd {
+      display: block;
+      padding: 10px;
+    }
+    body .main .tzzyd img {
+      max-width: 100%;
+    }
+    body .main .topTwoBox .topTwo > ul > li {
+      margin: 0;
+    }
+    body .main .top_Tu {
+      margin: 0;
+    }
+    body .main .top_Tu .topLun .carousel-inner {
+      position: relative;
+      width: 150%;
+      overflow: hidden;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper {
+      left: 50%;
+      top: -20px;
+      bottom: 0;
+      transform: translateX(-20%) scale(0.65);
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper .wordSuper {
+      width: auto;
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper .wordSuper img {
+      margin: 0;
+      width: 60px !important;
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      bottom: 40px;
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper .wordSuper .knowMore {
+      display: none;
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper .wordSuper .wordDescribe {
+      position: absolute;
+      top: 45px;
+      left: 100px;
+      margin: 0;
+      padding: 0;
+    }
+    body .main .top_Tu .topLun .carousel-inner .topCSwper .wordSuper .wordDescribe p {
+      margin: 0;
+      line-height: 1.5em;
+      height: 9em;
+      font-size: 16px;
+      overflow: hidden;
+    }
+    body .main .top_Tu .topLun .swiper-button-prev,
+    body .main .top_Tu .topLun .swiper-button-next {
+      width: 30px;
+      height: 30px;
+    }
+    body .main .top_Tu .topLun .carousel-control.left {
+      left: 25px !important;
+    }
+    body .main .top_Tu .topLun .carousel-control.right {
+      right: 25px !important;
+    }
+    body .main .top_Tu .topLun .carousel-indicators li {
+      width: 10px !important;
+      height: 10px !important;
+    }
+    body .main .topTu {
+      height: auto;
+    }
+    body .main .topTu .imgWrapper .wordSupernatant {
+      width: auto;
+      right: 25px;
+      top: 15px;
+    }
+    body .main .topTu .imgWrapper .wordSupernatant img {
+      height: 100px;
+    }
+    body .main .topTu .imgWrapper > .midPic {
+      width: 150%;
+      left: 50%;
+    }
+    body .main .clickLook span {
+      font-size: 10px;
+      border: none;
+    }
+    body .main .clickLook span:first-child {
+      margin-right: 0.5em;
+    }
+    body .main .midImgList ul li {
+      width: 50%;
+    }
+    body .main .midImgList ul li .wordLook {
+      margin: 10px 0 0;
+    }
+    body .main .midImgList ul li .titleH a {
+      font-size: 14px;
+    }
+    body .main .midImgList ul li .titleN {
+      width: auto;
+      margin: 0;
+      line-height: 1.2em;
+    }
+    body .main .midImgList ul li .titleN a {
+      font-size: 10px;
+      color: #777;
+    }
+    body .main .redBtnList {
+      padding: 25px 10px 5px 10px;
+    }
+    body .main .redBtnList ul {
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+    body .main .redBtnList ul li {
+      width: 20%;
+      padding: 0 0 20px 0;
+    }
+    body .main .redBtnList ul li a > div {
+      height: auto;
+    }
+    body .main .redBtnList ul li .WhiteBg {
+      width: auto;
+      height: 52px;
+      line-height: 52px;
+      padding: 5px;
+      margin: 0;
+    }
+    body .main .redBtnList ul li .btnWord {
+      margin-top: 10px;
+      position: static;
+      white-space: nowrap;
+      font-size: 10px;
+    }
+    body .main .loginEg > .leftWrap,
+    body .main .loginEg > .rightWrap {
+      float: none;
+      width: auto;
+      display: block;
+      margin-bottom: 70px;
+    }
+    body .main .loginEg > .leftWrap .carousel,
+    body .main .loginEg > .rightWrap .carousel {
+      height: auto;
+    }
+    body .main .loginEg > .leftWrap .wordHref,
+    body .main .loginEg > .rightWrap .wordHref {
+      height: 240px;
+    }
+    body .main .loginEg > .leftWrap .wordSee,
+    body .main .loginEg > .rightWrap .wordSee {
+      font-size: 12px;
+    }
+    body .main .loginEg > .leftWrap .moreSee,
+    body .main .loginEg > .rightWrap .moreSee {
+      text-align: center;
+      margin: 10px 0 0;
+    }
+    body .main .loginEg .imgB {
+      left: 5px;
+    }
+    body .main .topTitle,
+    body .main .organizeTitle,
+    body .main .gjTitle {
+      left: 5px;
+    }
+    body .main .officeIntroduce img {
+      width: 100%;
+      max-width: 100%;
+    }
+    body .main .officeIntroduce .office_I {
+      padding: 20px;
+    }
+    body .main .officeIntroduce .office_I .office_word,
+    body .main .officeIntroduce .office_I .fJ_tu {
+      width: auto;
+    }
+    body .main .organStructure,
+    body .main .GJ {
+      padding-top: 50px;
+    }
+    body .main .lastContent > ul > li {
+      width: 100%;
+      float: none;
+    }
+    body .main .lastContent > ul > li div {
+      height: auto;
+    }
+    body .main .lastContent .industryDescribe img {
+      width: 100%;
+      height: auto;
+    }
+    body .main .switchColumn {
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    body .main .switchColumn > span {
+      font-size: 14px;
+      margin: 0;
+    }
+    body .main .switchColumn > span.shuLine {
+      height: 1em;
+    }
+    body .main .columnList .leftCon,
+    body .main .columnList .rightInfo {
+      float: none;
+      width: 100%;
+      padding: 0;
+    }
+    body .main .columnList .leftCon {
+      border: none;
+      border-bottom: solid 1px #ce102b;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    body .main .columnList > ul > li {
+      flex-direction: column;
+      margin: 0 20px;
+    }
+    body .main .columnList .contentBox > div:first-child {
+      white-space: nowrap;
+      width: auto;
+      margin-bottom: 15px;
+    }
+    body .main .talentedPeople > ul > li {
+      width: 100%;
+      float: none;
+    }
+    body .main .contactUs > div {
+      float: none;
+      display: block;
+      width: 100%;
+    }
+    body .main .nextContent {
+      margin-top: 40px;
+    }
+    body .main .nextContent .innerLeft {
+      width: auto;
+      margin: 0;
+      margin-right: 20px;
+      flex: 0 0 40px;
+    }
+    body .main .nextContent .innerRight {
+      width: 100%;
+      flex: 1;
+    }
+    body .main .nextContent .innerRight .clickLook {
+      right: auto;
+    }
+    body .main .nextContent .innerRight ul li > p {
+      width: auto;
+    }
+    body .main .nextContent .specialRight ul li {
+      width: auto;
+      float: none;
+    }
+    body .main .nextContent .specialRight ul li > p {
+      white-space: normal;
+    }
+    body .main .nextContent .secondC > div {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border: none;
+      display: flex;
+      justify-content: space-between;
+    }
+    body .main .nextContent .lastTu {
+      display: flex;
+      justify-content: space-between;
+      padding: 3%;
+    }
+    body .main .nextContent .lastTu .specialLeft {
+      width: auto;
+      margin: 0 20px 0 0 !important;
+      flex: 0 0 40px;
+    }
+    body .main .nextContent .lastTu .specialLeft img {
+      top: 0;
+    }
+    body .main .nextContent .lastTu .specialRight {
+      width: 100% !important;
+      flex: 1;
+    }
+    body .main .innerBusiness {
+      padding: 40px 0;
+    }
+    body .main .innerBusiness ul li {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    body .main .ya-notice-list {
+      padding: 10px;
+    }
+    body .main .ya-notice-list .notice-con {
+      width: 100%;
+      float: none;
+    }
+    body .main .ya-notice-list .notice-more {
+      position: static;
+      margin-top: 15px;
+      float: none;
+    }
+    body .main .topTwoBox {
+      margin-top: 50px;
+    }
+    body .main .topTwoBox .topTwo > ul > li {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    body .main .topTwoBox .topTwo > ul > li > div {
+      height: auto;
+      padding-bottom: 50px;
+    }
+    body .main .topTwoBox .topTwo > ul > li .teachingActivities > ul > li > a > span:first-child {
+      width: 100%;
+    }
+    body .main .topTwoBox .topTwo > ul > li .teachingActivities > ul > li > a > span:last-child {
+      display: none;
+    }
+    body .main .topTwoBox .topTwo > ul > li .anti-money span {
+      width: 100% !important;
+    }
+    body .main .ya-content .ya-content-tit h3 {
+      font-size: 24px;
+      line-height: 1.35em;
+    }
+    body .main .ya-content .ya-con {
+      padding: 15px;
+    }
+    body .main .ya-content img {
+      max-width: 100%;
+    }
+    body .main .ya-content table,
+    body .main .ya-content tbody {
+      width: 100%;
+      display: block;
+    }
+    body .main .ya-content table tr,
+    body .main .ya-content tbody tr {
+      display: flex;
+      flex-direction: column;
+    }
+    body .main .ya-content table tr td,
+    body .main .ya-content tbody tr td {
+      display: block;
+      flex: 1;
+      max-width: 100%;
+      text-align: center;
+    }
+    body .main .ya-content table tr td p,
+    body .main .ya-content tbody tr td p {
+      margin: 0;
+      text-indent: 0;
+    }
+    body .main .ya-content table tr td img,
+    body .main .ya-content tbody tr td img {
+      display: inline-block;
+      margin: 0;
+    }
+    body .main .naturalPerson {
+      padding: 30px 0;
+    }
+    body .main .naturalPerson .nameStyle {
+      text-align: left !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+    body .main .naturalPerson .midLegalP > div {
+      float: none;
+      width: auto;
+    }
+    body .main .naturalPerson .naturalP {
+      padding: 15px;
+    }
+    body .main .naturalPerson .naturalP #sendCode_zrrkh,
+    body .main .naturalPerson .naturalP #sendCode_frkh {
+      margin: 0;
+    }
+    body .main .naturalPerson .naturalP input[type="text"] {
+      width: 100% !important;
+      border: solid 1px #ccc;
+      box-shadow: none;
+      outline: none;
+    }
+    body .main .naturalPerson .naturalP .exchangeBourse {
+      display: block;
+      margin-top: 15px;
+    }
+    body .main .naturalPerson .naturalP .exchangeBourse span {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    body .main .listContent {
+      width: auto;
+    }
+    body .main .listContent #content1 {
+      font-size: 14px;
+    }
+    body .main .listContent .dashedLine {
+      display: none;
+    }
+    body .main .listContent > ul > li {
+      width: auto;
+      float: none;
+    }
+    body .main .listContent > ul > li > div {
+      height: auto;
+    }
+    body .main .listContent > ul > li > div > div:first-child {
+      left: 10px;
+    }
+    body .main .listContent > ul > li > div .wordContent {
+      margin: 40px 20px;
+    }
+    body .main .listContent > ul > li > div .wordContent p {
+      color: #888;
+      font-size: 14px;
+    }
+    body .main .listContent > ul > li > div .wordContent ul > li > a {
+      display: flex;
+      justify-content: space-between;
+    }
+    body .main .listContent > ul > li > div .wordContent ul > li > a span {
+      flex: 1;
+      display: block;
+      width: auto;
+    }
+    body .main .listContent > ul > li > div .wordContent ul > li > a span:first-child {
+      font-size: 14px;
+      margin-right: auto;
+    }
+    body .main .listContent > ul > li > div .wordContent ul > li > a span:last-child {
+      flex: 0 0 90px;
+      color: #ccc;
+      font-size: 14px;
+    }
+    body .main .lastLine {
+      height: auto;
+    }
+    body .main .lastLine .shuLine,
+    body .main .lastLine .rightLine {
+      display: none;
+    }
+    body .main .lastLine .innerTitle {
+      padding: 40px 0;
+    }
+    body .main .lastLine .innerTitle ul > li {
+      float: none;
+      width: auto;
+    }
+    body .main .lastLine .innerTitle ul > li .firstTitle {
+      left: -15px;
+    }
+    body .main .lastLine .innerTitle ul > li .honorList {
+      font-size: 14px;
+    }
+    body .main .lastLine .innerTitle ul > li .egContent ul > li {
+      display: flex;
+      justify-content: space-between;
+      align-self: center;
+    }
+    body .main .lastLine .innerTitle ul > li .egContent ul > li span {
+      width: auto;
+      float: none;
+      margin-right: auto;
+      white-space: nowrap;
+      font-size: 14px;
+      display: block;
+      overflow: hidden;
+    }
+    body .main .lastLine .innerTitle ul > li .egContent ul > li span a {
+      font-size: 14px;
+      width: auto;
+      display: block;
+    }
+    body .main .lastLine .innerTitle ul > li .egContent ul > li span:last-child {
+      flex: 0 0 90px;
+      color: #888;
+    }
+    body .main .ya-notice-tab {
+      margin: 40px 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    body .main .ya-notice-tab a {
+      flex: 1;
+      width: auto;
+      font-size: 16px;
+      white-space: nowrap;
+      margin: 2px;
+    }
+    body .main .ya-notice-list {
+      overflow: hidden;
+    }
+    body .main .ya-notice-list ul li {
+      padding: 20px 0;
+    }
+    body .main .ya-notice-list ul li:first-child {
+      padding-top: 0;
+    }
+    body .main .ya-notice-list ul li:last-child {
+      padding-bottom: 0;
+    }
+    body .main .ya-notice-list ul li .notice-date {
+      margin-right: 10px;
+    }
+    body .main .ya-notice-list ul li .notice-date h3,
+    body .main .ya-notice-list ul li .notice-date p {
+      font-size: 16px;
+      white-space: nowrap;
+    }
+    body .main .ya-notice-list ul li .notice-date h3 {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    body .main .ya-notice-list ul li .notice-date p {
+      font-size: 10px;
+      color: #888;
+    }
+    body .main .ya-notice-list ul li .notice-con {
+      align-self: flex-start;
+      min-width: 0;
+    }
+    body .main .ya-notice-list ul li .notice-con h3 a {
+      display: block;
+      width: auto;
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    body .main .ya-notice-list ul li .notice-con p {
+      font-size: 12px;
+      color: #888;
+    }
+    body .main .ya-notice-list ul li .notice-more {
+      display: none;
+    }
+    body .main .law_regular {
+      height: auto;
+    }
+    body .main .innerOverseas ul li {      width: 100%;
+      float: none;
+    }
+    body .main .innerOverseas ul li > div {
+      height: auto;
+      margin-bottom: 40px;
+    }
+    body .main .innerRisk {
+      padding: 10px;
+    }
+
+    body .main .innerRisk  #xingming {
+      margin-left: -55px;
+      margin-bottom: 20px;
+    }
+
+
+    body .main .innerRisk table tr th {
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    body .main .onlineOning {
+      height: 60vh;
+      overflow: scroll;
+    }
+    body .main .digg {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+      flex-wrap: wrap;
+    }
+    body .main .digg a,
+    body .main .digg span {
+      padding: 2px 10px !important;
+      height: 26px;
+      margin: 2px;
+      display: flex;
+      float: none;
+      align-items: center;
+    }
+    body .main .lectureBox > div > div {
+      width: auto;
+      height: auto;
+      min-height: 200px;
+    }
+    body .main .lectureBox .leftBox,
+    body .main .lectureBox .rightBox {
+      width: 100%;
+      float: none;
+    }
+    body .main .lectureBox .wordContent ul li a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    body .main .lectureBox .wordContent ul li a span {
+      flex: 1;
+      width: 100%;
+      font-size: 14px;
+    }
+    body .main .lectureBox .wordContent ul li a span:last-child {
+      flex: 0;
+      white-space: nowrap;
+      color: #888;
+    }
+    body .main .safeInstruduce img {
+      max-width: 100%;
+    }
+    body .main .safeInstruduce .topTitleBg {
+      left: 15px;
+    }
+    body .main .talentedPeople > ul > li > div {
+      height: auto;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+    }
+    body .main .tipsList span a {
+      white-space: nowrap;
+    }
+    body .main .changeHall .innerC {
+      width: 100%;
+    }
+    body .main .changeHall .innerC > ul > li {
+      width: 50%;
+    }
+    body .main .changeHall .innerC > ul > li > a > div {
+      height: 130px;
+    }
+    body .main .changeHall .innerC > ul > li > a > div > div {
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    body .main .changeHall .innerC > ul > li > a > div.moreList {
+      line-height: 130px;
+    }
+    body .main .changeHall .innerC > ul > li > a > div.moreList img {
+      margin-top: 50px;
+    }
+    body .main .exchangeDate .ui-datepicker-calendar .ui-state-default {
+      width: auto;
+    }
+    body .main .exchangeDate #changeDate_event {
+      padding: 20px;
+    }
+    body .main .innerSaft > ul > li {
+      width: 50%;
+    }
+    body .main .innerSaft > ul > li > div > a > div {
+      font-size: 14px;
+      margin: 10px auto;
+    }
+    body .main .switchName {
+      width: auto;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    body .main .switchName > span {
+      padding: 5px;
+      margin: 0;
+      border: none;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    body .main .laws_Regulations .lawsRegulations {
+      left: 5px;
+    }
+    body .main .laws_Regulations .lawsR ul li {
+      margin-bottom: 15px;
+    }
+    body .main .laws_Regulations .lawsR ul li > div div {
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    body .main .topForm > div {
+      float: none;
+      width: auto !important;
+      padding: 0 !important;
+    }
+    body .main .topForm > div #xxdz,
+    body .main .topForm > div #sendCode {
+      margin: 10px 0;
+    }
+    body .main .riskManage .index2 {
+      height: auto;
+    }
+    body .main .riskManage .mod18 {
+      width: auto;
+      height: auto;
+    }
+    body .main .riskManage .mod18 .picBox {
+      display: none;
+    }
+    body .main .riskManage .mod18 .listBox {
+      top: auto;
+      left: 0;
+      right: 0;
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+    body .main .riskManage .mod18 .listBox ul {
+      position: static;
+      padding: 0;
+    }
+    body .main .riskManage .introduceCon {
+      position: static;
+      width: auto;
+      padding: 15px;
+      padding-bottom: 70px;
+    }
+    body .main .safeList .btnList:after {
+      content: "请到电脑网站中下载";
+      padding: 6px 10px;
+      border: solid 1px #151515;
+      margin: 15px 0 0;
+      display: inline-block;
+    }
+    body .main .safeList .btnList span {
+      display: none;
+    }
+    body .main .innerFundInfo .topItem {
+      overflow: hidden;
+      text-align: center;
+      height: auto;
+      line-height: 24px;
+      padding: 10px;
+    }
+    body .main .innerFundInfo .topItem span:first-child {
+      display: block;
+      font-size: 14px;
+      margin-right: 20px;
+    }
+    body .main .innerFundInfo .topItem .topName {
+      font-size: 12px;
+      margin: 0 5px;
+    }
+    body .main .innerFundInfo .topItem .topName img {
+      width: 14px;
+    }
+    body .main .innerFundInfo .bottomItem {
+      font-size: 12px;
+    }
+    body .main .innerFundInfo .bottomItem .rateValue,
+    body .main .innerFundInfo .bottomItem .accumulativeValue,
+    body .main .innerFundInfo .bottomItem .rateValue > span {
+      font-size: 16px;
+    }
+    body .main .innerFundInfo .bottomItem * {
+      font-size: 10px;
+    }
+    body .main .innerFundInfo .bottomItem > div:first-child {
+      width: 36%;
+    }
+    body .main .innerFundInfo .bottomItem > div {
+      padding: 15px 0;
+    }
+    body .main .innerFundInfo .bottomItem > div:first-child > div {
+      margin: 0 10px;
+      font-size: 12px;
+    }
+    body .main .innerFundInfo .bottomItem > div:last-child > div {
+      width: 80%;
+      font-size: 12px;
+    }
+    body .main .innerFundInfo .bottomItem > div:last-child > div .buyMoney {
+      font-size: 12px;
+    }
+    body .main .infoShow .btnL {
+      width: 80px;
+      height: 40px;
+    }
+    body .main .infoShow .qd {
+      bottom: 12%;
+    }
+    body .main .infoShow .jJ {
+      bottom: 35%;
+      left: 12%;
+    }
+    body .main .infoShow .gdInfo {
+      top: 14%;
+      left: 27%;
+      transform: rotate(80deg);
+    }
+    body .main .infoShow .dS {
+      top: 12%;
+      right: 30%;
+      transform: rotate(96deg);
+    }
+    body .main .infoShow .gjManage {
+      top: 32%;
+      right: 10%;
+      transform: rotate(-37deg);
+    }
+    body .main .infoShow .jMid {
+      bottom: 12%;
+      right: 3%;
+    }
+    body .main .topTwoBox .topTwo > ul > li {
+      margin: 0;
+    }
+    body .main .topTwoBox .topTwo > ul > li:first-child {
+      margin-bottom: 50px;
+    }
+    body .main .topTwoBox .laws_Regulations .topTitle.lawsRegulations {
+      margin-left: -40%;
+      padding-left: 5px;
+    }
+    body .main .topTwoBox .law_regular {
+      max-height: 320px;
+    }
+    body .main .topTwoBox .teachingActivities > ul > li > a > span {
+      min-width: 100%;
+    }
+
+  }
+  

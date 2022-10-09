@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.topTu{width: 100%;
+    overflow: hidden;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.imgWrapper>img{
+    width: 100%;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 276px;
+    top: 94px;
+}
+.ya-notice-tab {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.ya-notice-tab a:hover, .ya-notice-tab a.active {
+    background: rgb(206,16,43);
+    color: #fff;
+}
+.ya-notice-tab a:first-child {
+    /*margin-right: 10px;*/
+}
+.ya-notice-tab a {
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgb(206,16,43);
+    width: 149px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(206,16,43);
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 13px;
+}
+.ya-notice-tab a i.ya-notice-iconl {
+    left: -120px;
+}
+.ya-notice-tab a i {
+    position: absolute;
+    top: 10px;
+    width: 101px;
+    height: 7px;
+    background: url(../images/indexList/icon-line.png) no-repeat;
+    background-size: 100%;
+}
+.ya-notice-tab a i.ya-notice-iconr {
+    right: -120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.acountManage{
+    border: 1px solid #EBEBEB;
+    width: 79%;
+    margin: auto;
+    margin-bottom: 38px;
+    padding-bottom: 31px;
+}
+.acountWord{
+    width: 100%;
+    text-align:  center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+	    margin-bottom: 31px;
+}
+.switchTag{
+    width: 86%;
+    margin: auto;
+}
+.switchTag>img{
+    width: 100%;
+}
+.switchTag  p img{
+       width: 100%;
+    display: block;
+    margin: auto;
+}

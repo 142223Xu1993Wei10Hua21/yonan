@@ -1,0 +1,287 @@
+/**
+* copyright
+* http://www.oddpi.com
+* power oddpi Inc
+**/
+
+html{
+	background-attachment:fixed;
+}
+.ABTline div:first-child{ position: fixed; left: -100px; top: 0; width: 4px; height: 100%; background: #ff0000; }
+.ABTline div:last-child{ position: fixed; left: 0; top: -100px; width: 100%; height: 4px; background: #ff0000; }
+em{font-style:normal;}
+div#ABTSpeecher{display:none;}
+div#ABTInterface{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100px;
+	/* background:url(../images/toolbarBg.jpg) repeat-x left top; */
+	background:rgba(0, 69, 166, 1);
+	font-family:"Microsoft YaHei";
+	text-align:center;
+	z-index:9000;
+}
+div#ABTInterface *{padding:0px;margin:0px;}
+div#ABTInterface .ABTInterface_box{height: 100%;}
+div#ABTInterface ul{
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+	width: min-content;
+	height: 100%;
+	margin: 0 auto;
+	align-items: center;
+}
+div#ABTInterface li{
+	list-style-type:none;
+	min-width: 74px;
+	height: 100%;
+	color: #FFF;
+	font-size: 18px;
+	cursor: pointer;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding: 10px 10px;
+	position: relative;
+}
+div#ABTInterface li i{font-size: 24px;}
+div#ABTInterface li p{margin-top: 15px;white-space: nowrap;}
+div#ABTInterface li:hover{
+	background: #F5F5F5;
+	color: #0045A6;
+}
+div#ABTInterface li .changeColor{
+	position: absolute;
+	bottom: -280px;
+	left: 0;
+	width: 260px;
+	height: 280px;
+	background: #F5F5F5;
+	display: none;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding: 20px 30px;
+}
+div#ABTInterface li .changeColor p{
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+}
+div#ABTInterface li .changeColor p:nth-child(1){
+	background: #1A1A1A;
+	margin-top: 0;
+}
+div#ABTInterface li .changeColor p:nth-child(2){
+	background: #0061FF;
+}
+div#ABTInterface li .changeColor p:nth-child(3){
+	background: #FFFD38;
+}
+div#ABTInterface li .changeColor p:nth-child(4){
+	background: #FFFFFF;
+}
+div#ABTInterface li .changeColor p:nth-child(5){
+	background: #002A66;
+	text-align: left;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding-left: 19px;
+	color: #FFFFFF;
+}
+div#ABTInterface li .changeAudio{
+	position: absolute;
+	bottom: -210px;
+	left: 0;
+	width: 140px;
+	height: 210px;
+	background: #F5F5F5;
+	display: none;
+}
+div#ABTInterface li .changeAudio p{
+	color: #0045A6;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 40px;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding-left: 30px;
+	margin-top: 10px;
+	text-align: left;
+}
+div#ABTInterface li .changeAudio p:hover{
+	background: #E3EFFF;
+	color: #0045A6;
+}
+div#ABTInterface li .SpeedRegulation{
+	position: absolute;
+	bottom: -110px;
+	left: 0;
+	width: 140px;
+	height: 110px;
+	background: #F5F5F5;
+	display: none;
+}
+div#ABTInterface li .SpeedRegulation p{
+	color: #0045A6;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 40px;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding-left: 30px;
+	margin-top: 10px;
+	text-align: left;
+}
+div#ABTInterface li .SpeedRegulation p:hover{
+	background: #E3EFFF;
+	color: #0045A6;
+}
+div#ABTInterface li .readingModeCheck{
+	position: absolute;
+	bottom: -110px;
+	left: 0;
+	width: 140px;
+	height: 110px;
+	background: #F5F5F5;
+	display: none;
+}
+div#ABTInterface li .readingModeCheck p{
+	color: #0045A6;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #1A1A1A;
+	line-height: 40px;
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding-left: 30px;
+	margin-top: 10px;
+	text-align: left;
+}
+div#ABTInterface li .readingModeCheck p:hover{
+	background: #E3EFFF;
+	color: #0045A6;
+}
+
+div#gettextmessagebox{
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	background:#666666;
+	height:140px;
+	z-index:9000;
+	overflow:hidden;
+	display: flex;
+}
+div#gettextmessagebox div#closetextmessagebox .iconfont{
+	font-size:30px;
+	color: #FFFFFF;
+}
+div#gettextmessagebox div#gettextmessagecontent{
+	width:88%;
+	height: 132px;
+	margin-top: 4px;
+	font-family:"Microsoft YaHei";
+	color: #1A1A1A;
+	font-size:50px;
+	font-weight: 600;
+	line-height:132px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div#gettextmessagebox div#gettextmessagebutton{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+div#gettextmessagebox div#gettextmessagebutton button{
+	width: 135px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	color: #FFFFFF;
+	font-family:"Microsoft YaHei";
+	font-size:30px;
+	font-weight: 400;
+	margin-top: 10px;
+	background: none;
+	border: 1px solid #FFFFFF;
+}
+div#gettextmessagebox div#gettextmessagebutton button:hover{
+	color: #333333;
+	background-color: #FFFFFF;
+}
+div#gettextmessagebox div#gettextmessagecontent span{
+	display:inline-block;
+	padding:20px 2px;
+	margin-top:-20px;
+	height:28px;
+	font-size:26px;
+	line-height:28px;
+}
+div#gettextmessagebox div#gettextmessagecontent span sup{
+	display:block;
+	margin-top:-47px;
+	font-size:16px;
+	line-height:20px;
+}
+
+div#ABTInterface div.pluginsBox ul li ol#hightContrastList{
+	position:absolute;
+	left:5px;
+	top:80px;
+	width:80px;
+	background:#e0e0e0;
+	border:1px solid #999;
+	font-size:12px;
+	line-height:14px;
+	padding-top:3px;
+	z-index:9001;
+}
+div#ABTInterface div.pluginsBox ul li ol#hightContrastList li{
+	float:none;
+	padding:2px 0px 3px 22px;
+	background:#9F0;
+	margin-bottom:3px;
+	text-align:left;
+}

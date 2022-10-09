@@ -1,0 +1,189 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+.main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.topTu{width: 100%;
+    /*height: 542px;*/
+    overflow: hidden;
+}
+.threeTu{
+    height: 538px;
+}
+.imgWrapper{
+    width: 100%;
+    position: relative;
+}
+.wordSupernatant{
+    position: absolute;
+    width: 39%;
+    z-index: 3;
+    right: 60px;
+    top: 58px;
+}
+.wordSupernatant>img{
+    width: auto!important;
+}
+.imgWrapper>img{
+    position: absolute;
+    width: 100%;
+}
+.bottomPic{
+    position: absolute;
+    top: 329px;
+}
+.topPic{
+    top: -2px;
+}
+.topPic,.bottomPic{
+    z-index: 2;
+}
+.innerRisk p{
+	line-height:182%;
+	margin-bottom:20px!important;
+	text-align: justify;
+}
+.midPic{
+    z-index: 1;
+}
+.img_wrap>img:first-child{
+    width: 100%;
+    position: static;
+}
+.smallTu{
+    width: 25%!important;
+    position: absolute;
+    right: 177px;
+    top: 94px;
+}
+.riskManage{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.riskManage:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.innerRisk{
+    width: 100%;
+    margin: auto;
+    border:1px solid #E5E5E5;
+}
+.innerRisk:after{
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.ya-notice-tab {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.ya-notice-tab a:hover, .ya-notice-tab a.active {
+    background: rgb(206,16,43);
+    color: #fff;
+}
+.ya-notice-tab a:first-child {
+    /*margin-right: 10px;*/
+}
+.ya-notice-tab a {
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgb(206,16,43);
+    width: 149px;
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: rgb(206,16,43);
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 13px;
+}
+.ya-notice-tab a i.ya-notice-iconl {
+    left: -120px;
+}
+.ya-notice-tab a i {
+    position: absolute;
+    top: 10px;
+    width: 101px;
+    height: 7px;
+    background: url(../images/indexList/icon-line.png) no-repeat;
+    background-size: 100%;
+}
+.ya-notice-tab a i.ya-notice-iconr {
+    right: -120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.innerRisk>p>span{
+    font-size: 12px;
+}
+.innerRisk>p>em{
+   margin-right: 5px;
+}
+@-moz-document url-prefix() {
+.ya-notice-tab a {
+
+    line-height: 26px;
+
+}
+}
+.innerRisk{
+    padding: 20px;
+    padding-left: 30px;
+}
+.top_Title{
+    font-weight: bold;
+    font-size: 12px;
+}
+.bottomList{
+    margin-top: 10px;
+}
+.bottomList div{
+    margin-bottom: 10px;
+}
+.bottomList div em{
+    margin-right: 5px;
+}
+.bottomList div p{
+    font-size: 12px;
+}
+.anLiTitle,.introduceTitle{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.introduce p{
+    text-indent: 24px;
+    font-size: 12px;
+}
+table tr th, table tr td { border:1px solid #e5e5e5; font-size: 14px}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    padding: 10px;
+	    font-size: 16px;
+}
+table{
+    width: 100%;
+}
+table tr td:first-child{
+    width:80%;
+	color:rgb(206,16,43)
+}
+table tr td:last-child{
+    width: 20%;
+    cursor: pointer;
+    color: rgb(206,16,43);
+}

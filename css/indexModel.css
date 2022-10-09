@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-size: 14px}
+ul>li{list-style: none;}
+a{
+    text-decoration: none;
+}
+.main{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+ol{
+	    list-style: none;
+}
+.breadcrumb {
+     width: 100%;
+     height: 37px;
+     line-height: 37px;
+     background-color: #e9e9e9;
+     color: #606060;
+     font-size: 14px
+ }
+table {
+    border-collapse: collapse;
+}
+
+table  td{
+ padding:10px;
+}
+
+
+.breadcrumb a {
+    color: #606060
+}
+.breadcrumb a:hover {
+    color: rgb(206,16,43)!important;
+}
+.breadcrumb a.active {
+    color:  rgb(206,16,43);
+}
+
+.breadcrumb span {
+    padding: 0 10px
+}
+
+.ya-content {
+    margin: 40px 0 0;
+    border: 1px solid #e2e2e2
+}
+
+.ya-content-tit {
+    padding: 35px 0;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    color: #606060;
+}
+
+.ya-content-tit h3 {
+    font-size: 32px;
+    line-height: 60px;
+	color:#333333;
+}
+
+.ya-content-tit p {
+    font-size: 14px;
+    line-height: 1.8;
+		color:#333333;
+}
+
+.ya-content-tit p span {
+    font-family: Arial
+}
+
+.ya-con {
+    padding: 40px 55px;
+    color:#333333;
+	min-height:400px;
+}
+
+.ya-con p {
+       font-size: 16px;
+    text-indent: 2em;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.ya-con img,
+.ya-con video {
+    display: block;
+    margin: 30px auto
+}
+
+.ya-con video {
+    width: 100%;
+    background: url(../images/indeModel/videoimg.jpg) no-repeat center
+}
+
+.ya-content-link {
+    margin-bottom: 40px;
+    margin-top: 20px
+}
+
+.ya-content-link p {
+    color: #606060;
+     font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px
+}
+
+.ya-content-link p a {
+    color: #606060
+}
+
+.ya-content-link p a:hover {
+    color: rgb(206,16,43);
+    text-decoration: underline
+}

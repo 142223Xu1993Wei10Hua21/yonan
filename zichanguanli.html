@@ -1,0 +1,697 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业务一览_资产管理_业务介绍_默认站点</title>
+    <meta name="keywords" content="永安期货股份有限公司" />
+	<meta name="description" content="永安期货股份有限公司" />
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/assetsManagement.css">
+    <link href="./css/pagination.css" rel="stylesheet" />
+         <script src="./js/jquery-s.min.js"></script>
+<!--[if IE 8]>
+<script src="./js/jquery-j.min.js"></script>
+<![endif]-->
+    <script src="./js/layer/layer.js"></script>
+
+    <script src="./js/laytpl.js"></script>
+
+</head>
+<body>
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="bookmark"href="/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+
+<!--[if !IE]><!-->
+<link rel="stylesheet" href="./css/header.css">
+<!--<![endif]-->
+<!--[if IE 9]>
+	<link rel="stylesheet" href="./css/header_ie.css">
+<![endif]-->
+<meta name="renderer"  content="webkit">
+
+
+<!--200703微官网开发css文件部署-->
+<!--<link rel="stylesheet" href="http://demo.stogram.net.cn/yongan/append.css?t=11298713">-->
+<link rel="stylesheet" href="./css/append.css?t=11298713">
+	
+<script src="./js/html5shiv.min.js"></script>
+<script src="./js/respond.min.js"></script>
+<div class="topHead">
+    <div class="topMark">
+        <div class="container">
+            <!-- <div class="nameTitle">衍生品综合服务商</div> -->
+            <div class="rightHead">
+                <div class="searchList"><input id="keywords" name="keywords" onkeydown="if(event.keyCode==13){SiteSearch2('/search.html', '#keywords');return false};" type="text" value="" ><img src="./images/index/search.png"><div onclick="SiteSearch2('/search.html', '#keywords');" class="searchBtn">搜索</div></div>
+                <!--<div><span>中文</span><span class="shu"></span><span>英文</span></div>-->
+                <div class="z_code">证券代码：600927</div>
+            </div>
+        </div>
+    </div>
+    <div class="menuList jumpA">
+        <div class="switchMenu container">
+            <img src="./images/index/LOGO.png">
+            
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li data-submenu="nav-yongAn"><a href="./zoujinyongan.html">走进永安</a></li>
+                <li data-submenu="nav-serviceHall"><a href="./yingyeting.html">网上营业厅</a></li>
+                <li data-submenu="nav-business"><a href="./yewuyilan.html">业务一览</a></li>
+                <li data-submenu="nav-tzzgx"><a href="./touzizheguanxi.html">投资者关系</a></li>
+                <li data-submenu="nav-investor"><a href="./jiaoyuyuandi.html">投资者教育园地</a></li>
+            </ul>
+        </div>
+        <div class="navbar-ds">
+            <!--<div class="sub-nav block-index" id="nav-index" style="display:none;">-->
+                <!--<div class="wrap">-->
+                    <!--啦啦啦-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="sub-nav block-yongAn" id="nav-yongAn" style="display: none;">
+                <div class="wrap">
+                    <div class="listBtn">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>公司概况</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_Introduce" title="公司介绍" ><div>公司介绍</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_organize" title="组织架构" ><div>组织架构</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_developG" title="发展轨迹" ><div>发展轨迹</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_feature" title="企业文化" ><div>企业文化</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_YUJ" title="公司愿景" ><div>公司愿景</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=1#office_feature" title="行业地位" ><div>行业地位</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>集团化发展</span></span>
+                                </div>
+                                <ul>
+                                 <li><a href="./zoujinyongan.html?jumpMark=2&jm_inner=1#jiT_D" title="总部" ><div>总部</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=2&jm_inner=2#jiT_D" title="参(控)股机构" ><div>参(控)股机构</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=2&jm_inner=3#jiT_D" title="分支机构" ><div>分支机构</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span><a href="./zoujinyongan.html?jumpMark=5#contact_US" title="" >联系我们</a></span></span>
+                                </div>
+                                <!--<ul>
+                                    <li class="tel"><div><span>联系方式:</span><span>4007007878</span></div></li>
+                                </ul>-->
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>信息公示</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./zoujinyongan.html?jumpMark=3#peopleGs" title="" ><div>人员公示</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=3#infoGs" title="信息公示" ><div>信息公示</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>诚聘英才</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./zoujinyongan.html?jumpMark=4" title="招聘信息" ><div>招聘信息</div></a></li>
+                                    <li><a href="./zoujinyongan.html?jumpMark=4" title="校园宣讲" ><div>校园宣讲</div></a></li>
+                                   <!--<li><a href="/zoujinyongan.html?jumpMark=4" title="订单班/实习生招聘" ><div>订单班/实习生招聘</div></a></li>-->
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-nav block-investor" id="nav-serviceHall" style="display: none;">
+                <div class="wrap">
+                    <div class="listBtn">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>开户大厅</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./yingyeting.html?jumpMark=1#openH" title="开户" ><div>开户</div></a></li>
+                                    <li><a href="./touzizheshidangxing/44.html?jumpMark=1#openH" title="投资者适当性" ><div>投资者适当性</div></a></li>
+                                    <li><a href="./yingyeting/show-102.html?jumpMark=1#openH" title="银期转账" ><div>银期转账</div></a></li>
+                                    <li><a href="./xieyigongshi/67.html?jumpMark=1#openH" title="客户签署协议公示" ><div>客户签署协议公示</div></a></li>
+                                    <li><a href="./changjianwenti/68.html?jumpMark=1#openH" title="常见问题" ><div>常见问题</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>交易大厅</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./jiaoyidating/69.html" title="交易公告" ><div>交易公告</div></a></li>
+                                    <li><a href="./jiaoyirili.html" title="交易日历" ><div>交易日历</div></a></li>
+                                    <li><a href="./jiaoyidating/70.html" title="交割套宝服务" ><div>交割套保服务</div></a></li>
+                                    <li><a href="./fengkongliucheng/71.html" title="期货交易风控流程" ><div>期货交易风控流程</div></a></li>
+                                    <li><a href="./jiaoyidating/72.html" title="常见问题" ><div>常见问题</div></a></li>
+                                    <li><a href="http://otc.yafco.com:8081/yazb-cust-web/" title="永安资本交易信息查询平台" target="_blank" ><div>永安资本交易信息查询平台</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>软件下载</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=1" title="投研平台" ><div>投研平台</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=2" title="正式行情交易" ><div>正式行情交易</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=3" title="手机软件" ><div>手机软件</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=4" title="境外交易软件" ><div>境外交易软件</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=5" title="期货仿真" ><div>期货仿真</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=6" title="接口开发" ><div>接口开发</div></a></li>
+                                    <li><a href="./ruanjianxiazai.html?jumpMark=7" title="MD5验证" ><div>MD5验证</div></a></li>
+                                    
+                                </ul>
+                            </li>
+                             <li>
+                              <a class="yWeb" href="./yingyeting.html?jumpMark=9" title="" >
+                                <div>
+                                    <span class="montant"></span><span>营业网点</span>
+                                </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-nav block-business" id="nav-business" style="display: none;">
+                <div class="wrap">
+                    <div class="listBtn">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>财富管理</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./caifuguanli.html" title="财富管理" ><div>财富管理</div></a></li>
+                                    <li><a href="./zichanguanli.html" title="资产管理" ><div>资产管理</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>风险管理</span></span>
+                                </div>
+                                <ul>
+                                    <li><a href="./fengxianguanli.html?jumpMark=1" title="业务介绍" ><div>业务介绍</div></a></li>
+                                    <li><a href="./fengxianguanli.html?jumpMark=2" title="品种委员会" ><div>品种委员会</div></a></li>
+                                    <li><a href="./fengxianguanli.html?jumpMark=3" title="信息公示" ><div>信息公示</div></a></li>
+                                    <li><a href="./fengxianguanli.html?jumpMark=4" title="风险提示" ><div>风险提示</div></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="montant"></span><span>境外业务</span></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="./jingwaiyewu.html?jumpMark=1" title="业务介绍" ><div>业务介绍</div></a>
+                                    </li>
+                                    <li>
+                                         
+                                        <a href="http://www.yafco.com.hk/index.html" target="_blank" title="{gjjkdmodel.title"><div>新永安国际金控</div></a>
+                                    </li>
+                                    <li>
+                                        <a href="./jingwaiyewu.html?jumpMark=3" title="精彩活动" ><div>精彩活动</div></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="sub-nav block-tzzgx" id="nav-tzzgx" style="display: none;">
+                <div class="wrap">
+                    <div class="listBtn">
+                        <ul>
+                            <li style=" width:20%;">
+                               <a href="./touzizheguanxi/gonggaoxinxi.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>公告信息</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:20%;">
+                               <a href="./touzizheguanxi/dingqibaogao.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>定期报告</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:20%;">
+                                <a href="./touzizheguanxi/yejifabu.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>业绩发布</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:20%;">
+                                <a href="http://sns.sseinfo.com/index.do" title="" target="_blank" >
+                                    <div>
+                                        <span class="montant"></span><span>在线咨询</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 投资者教育园地 -->
+            <div class="sub-nav block-investor" id="nav-investor" style="display: none;">
+                <div class="wrap">
+                    <div class="listBtn">
+                        <ul>
+                            <li style=" width:24.5%;">
+                               <a href="./toujiaoshipin/208.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>投教视频</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="./toujiaoshouce/209.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>投教手册</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                                <a href="./toujiaohuodong.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>投教活动</span>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li style=" width:24.5%;">
+                                <a href="./fanxiqianxuanchuan/18.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>反洗钱宣传</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="http://www.csrc.gov.cn/pub/newsite/tzzbh1/tbtzzjy/tbfxff/" target="_blank" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>投资者保护</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="http://edu.cfachina.org" target="_blank" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>期货学苑</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="./falvfagui.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>法律法规</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="./fazhixuanchuan/199.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>法制防非宣传</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li style=" width:24.5%;">
+                               <a href="./qihuoheyanshengpinfa/217.html" title="" >
+                                    <div>
+                                        <span class="montant"></span><span>期货和衍生品法</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<script src="./js/jquery-s.min.js"></script>
+<!--[if IE 8]>
+<script src="./js/jquery-j.min.js"></script>
+<![endif]-->
+<script src="./js/header.js"></script>
+
+
+<!--200703微官网开发js文件部署-->
+<!--<script src="http://demo.stogram.net.cn/yongan/append.js?t=11298713"></script>-->
+<script src="./js/append.js?t=11298713"></script>
+<div class="main">
+    <div class="topTu">
+        <!---->
+        <div class="imgWrapper threeTu" >
+            <div class="wordSupernatant">
+                <img src="./images/businessView/moneyManage.png">
+            </div>
+            <img src="./images/index/topC.png" class="topPic">
+            <img src="./images/index/财富.jpg" class="midPic">
+            <img src="./images/index/bottomC.png" class="bottomPic">
+        </div>
+        <!---->
+        <!--<div  class="imgWrapper img_wrap">-->
+            <!--<img src="./images/onlineHall/bner_bg.png">-->
+            <!--<img src="./images/businessView/moneyManage.png" class="smallTu">-->
+        <!--</div>-->
+    </div>
+		<input type="hidden" id="wintitle" value="_默认站点" />
+        <div class="breadcrumb">
+            <div class="container">
+                <a href="./index.html" title="">首页</a>
+                <span>&gt</span>
+	            <a href="./yewuyilan.html">业务一览</a>
+	            <span>&gt</span>
+	            <a href="./zichanguanli.html">资产管理</a>
+                <span>&gt</span>
+                <a id="mianbaoxue" class="active">业务介绍</a>
+            </div>
+        </div>
+    <div  class="container">
+        <div class="switchList">
+            <div class="ya-notice-tab switch_List">
+	            <a class="active">
+                    <i class="ya-notice-iconl"></i>
+                    业务介绍
+                </a>
+                <a class="" >
+                    投资团队
+                </a>
+                <a class="">
+                    产品公告
+                </a>
+                <a class="">
+                    募集账户
+                </a>
+                <a class="">
+                    <i class="ya-notice-iconr"></i>
+                    人员公示
+                </a>
+            </div>
+        </div>
+        <div class="riskManage">
+            <!--业务介绍-->
+            <div class="innerRisk index1">
+	            <p><span style="color: rgb(192, 0, 0); font-size: 18px;"><strong><span style="color: rgb(192, 0, 0);">期货资管业务发展概况</span></strong></span></p><p style="line-height: 1.75em;">　　期货资产管理业务（简称期货资管），指期货公司根据资产管理合同约定的方式、条件、要求及限制，对客户资产进行经营运作，为客户提供期货及其他金融衍生品投资管理服务的行为。期货公司开展资产管理业务须要获得证监会批准，并成立期货资产管理部。</p><p style="line-height: 1.75em;">　　2012年5月22日，证监会颁布的《期货公司资产管理业务试点办法》（简称《试点办法》），该办法于2012年9月1日起开始施行。</p><p style="line-height: 1.75em;">　　2014年5月9日，国务院发布了《关于进一步促进资本市场健康发展的若干意见》，简称为“新国九条”，为期货资管发展打开空间。</p><p style="line-height: 1.75em;">　　2014年8月11日，证监会发布了《证券期货经营机构私募资产管理业务管理办法（征求意见稿）》，统一监管，可与券商、基金同台竞技。</p><p style="line-height: 1.75em;">　　2014年12月15日，中国期货业协会发布了《期货公司资产管理业务管理规则（试行）》，规定“期货公司及子公司从事资产管理业务包括为单一客户办理资产管理业务和为特定多个客户办理资产管理业务”。</p><p style="line-height: 1.75em;">　　2015年4月16日，中国期货业协会发布《关于做好期货公司及其资管产品进入银行间债券市场备案工作的通知》，规定期货公司及其资产管理产品，按规定向中国人民银行上海总部完成备案后，可进入银行间债券市场。</p><p style="margin-bottom: 10px;"><span style="color: rgb(192, 0, 0); font-size: 18px;"><strong><span style="color: rgb(192, 0, 0);">公司资管业务概况</span></strong></span></p><p><strong><span style="font-size: 16px;"></span></strong></p><p style="line-height: 1.75em; margin-bottom: 10px;">　　公司2012年11月15日取得中国证监会核准的资管业务行政许可（证监许可（2012）1503号）；<br/>　　公司资产管理总部目前有投资经理14人。团队具有丰富的投资经验，尤其在股票与股指期货的量化对冲套利和商品期货的基差对冲、跨期套利、单边趋势、程序化交易等方面积累了许多成功的经验，同时组建了股票和债券团队，产品线丰富，形成了较为稳定的盈利模式稳定。</p><p style="line-height: 1.75em; margin-bottom: 10px;">　　业务愿景：努力打造国内最优秀的衍生品资产管理平台，成为以绝对收益为鲜明特征的投资产品提供商，跻身于国内一流的对冲基金行列。</p><p><span style="color: rgb(192, 0, 0); font-size: 18px;"><strong>投资理念</strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 16px;"></span>　　研究和运用安全边际下的资产轮动，即在有安全边际收益的基础上，通过自上而下的研究体系，挖掘出价值错估的投资标的物，运用金融衍生工具的对冲实现资产保值和稳健增长；发挥期货交易特色，适当运用杠杆，择时追随趋势，在控制回撤的前提下取得较高绝对收益。<br/></p><p>&nbsp;</p>
+            </div>
+            <!--投资团队-->
+            <div class="innerRisk index2" style="display:none;">
+                
+                <div class="mod18">
+                    <span id="prev" class="btn prev"></span>
+                    <span id="next" class="btn next"></span>
+                    <span id="prevTop" class="btn prev"></span>
+                    <span id="nextTop" class="btn next"></span>
+                    <div id="picBox" class="picBox">
+                        <ul class="cf" style="width: 1316px; left:0px;">
+	                        
+                            <li>
+                                <a href="/touzituandui/show-6.html" target="_blank"><img width="188" height="230" src="./images/xuxing.jpg" alt=""></a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                    <div id="listBox" class="listBox">
+                        <ul class="cf" style="width: 420px; left: 0px;">
+	                        
+                            <li class="on">
+                                <i class="arr2"></i><img width="84" height="103" src="./images/xuxing.jpg" alt="徐行">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="introduceCon index_0 ">
+                	<input type="hidden" class="dizhi" name="test" value="/touzituandui/show-6.html" />
+                    <div>
+                        <span class="peopleName">徐行</span><span class="task"></span>
+                    </div>
+                    <p class="describe">
+                        浙江大学学士、英国苏塞克斯大学金融工程硕士，曾任永安期货股份有限公司程序化交易总部策略顾问，从事量化交易模型开发和投资组合构建工作。        投资策略：股票、分级基金、股指期货、期权以及商品期货之间的期现套利、跨期套利、统计套利；股票、股指、国债、期权以及商品期货的趋势投机策略。
+                    </p>
+                </div>
+                
+                <div class="fundM"><a id="urllink" target="_blank" href="http://www.yafco.com/renyuangongshi/show-1.html">资产管理业务流程及人员公示</a></div>
+            </div>
+            <!--产品公告-->
+            <div class="innerRisk index3" style="display:none;">
+                <table>
+					<thead>
+	                    <tr>
+	                        <th>公示/公告名称</th>
+	                        <th>发布日期</th>
+	                    </tr>
+					</thead>
+					<tbody id="chanpingonggaobox">
+	                    
+                    </tbody>
+                </table>
+
+                <div id="chanpingonggaopage" class="digg">
+                    
+                </div>
+            </div>
+            <!--募集账户-->
+            <div class="innerRisk index4" style="display:none;">
+                <p style="text-align: center;"><span style="font-size: 14px;"><strong><span style="color: rgb(192, 0, 0);">永安期货股份有限公司资产管理募集账户公示</span></strong></span></p><p><br/></p><p>&nbsp; &nbsp; &nbsp; 投资者通过永安期货股份有限公司（下称“我司”）认/申购资产管理产品时，可通过汇款方式（不接受现金）将认/申购款项划入本公司指定的收款银行账户。为了更好的服务广大投资者，现将我司资产管理业务募集账户的信息提示如下：</p><p>&nbsp; &nbsp; &nbsp; 直销募集账户信息如下：<br/></p><p>&nbsp; &nbsp; &nbsp; 账户名：<strong>永安期货股份有限公司</strong><br/></p><p>&nbsp; &nbsp; &nbsp; 账号：<strong>1202020219900433828</strong><br/></p><p>&nbsp; &nbsp; &nbsp; 开户行：<strong>中国工商银行杭州庆春路支行</strong><br/></p><p><strong>&nbsp; &nbsp; &nbsp; 特别提示：具体资产管理计划的实际募集账户请以资产管理计划合同为准。通过其他方式参与资产管理计划的投资者，请以资产管理合同及相关材料约定的销售机构的通知为准。</strong><br/></p><p style="text-align: right;">永安期货股份有限公司</p>
+            </div>
+            <!--人员公示-->
+            <div class="innerRisk index5" style="display:none;">
+                <table>
+                    <thead>
+	                    <tr>
+	                        <th>公示/公告名称</th>
+	                        <th>发布日期</th>
+	                    </tr>
+					</thead>
+					<tbody id="renyuangongshibox">
+	                    
+                    </tbody>
+                </table>
+
+                <div id="renyuangongshipage" class="digg">
+                    
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="./css/footer.css">
+
+
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-l">
+                <ul class="friendlink">
+                    
+                    <li> 
+                        <img src="./images/concat01.png" alt="永安资本" />
+                    </li>
+                    
+                    <li>
+                        <img src="./images/concat02.png" alt="永安瑞萌" />
+                    </li>
+                    
+                    <li>
+                        <img src="./images/concat03.png" alt="永安国油" />
+                    </li>
+                    
+                    <li> 
+                        <img src="./images/concat04.png" alt="永安(新加坡)国贸" />
+                    </li>
+                    
+                    <li> 
+                        <a href="http://www.yafco.com.hk/">
+                            <img src="./images/concat05.png" alt="新永安国际金控" />
+                        </a>
+                    </li>
+
+                    <li> 
+                        <a href="http://www.yagf.com.cn/">
+                            <img src="./images/concat06.png" alt="永安国富" />
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./images/concat07.png" alt="浙江中邦" />
+                    </li>
+
+
+                    
+                </ul>
+                <div class="link-bot">
+                    <div class="linkselect-panel">
+                        <span>友情链接</span>
+                        <i class="icon-select"></i>
+                        <ul class="linkselect-con">
+                            
+                            <li>
+                                <a href="http://www.csrc.gov.cn/pub/newsite/" title="中国证监会" target="_blank">中国证监会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.cfachina.org/" title="中国期货业协会" target="_blank">中国期货业协会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.cfmmc.com/main/views/index.html?r=0.7221347229114505" title="中国期货市场监控中心" target="_blank">中国期货市场监控中心</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.sac.net.cn/" title="中国证券业协会" target="_blank">中国证券业协会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.amac.org.cn/" title="中国证券投资基金业协会" target="_blank">中国证券投资基金业协会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.zjsa.net.cn/" title="浙江证券期货业协会" target="_blank">浙江证券期货业协会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.sfc.hk/web/EN/index.html" title="香港证监会" target="_blank">香港证监会</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.cffex.com.cn/" title="中国金融期货交易所" target="_blank">中国金融期货交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.shfe.com.cn/" title="上海期货交易所" target="_blank">上海期货交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.dce.com.cn/" title="大连商品交易所" target="_blank">大连商品交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.czce.com.cn/portal/index.htm" title="郑州商品交易所" target="_blank">郑州商品交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.ine.cn/" title="上海国际能源交易中心" target="_blank">上海国际能源交易中心</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.sse.com.cn/" title="上海证券交易所" target="_blank">上海证券交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.hkex.com.hk/?sc_lang=en" title="香港交易所" target="_blank">香港交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.cmegroup.com/" title="芝加哥商品交易所" target="_blank">芝加哥商品交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.eurexchange.com/exchange-en/" title="欧洲期货交易所" target="_blank">欧洲期货交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.sgx.com/" title="新加坡交易所" target="_blank">新加坡交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://commodities.euronext.if5.com/Account/Login?ReturnUrl=%2F" title="伦敦国际金融期货期权交易所" target="_blank">伦敦国际金融期货期权交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.theice.com/homepage.jhtml" title="洲际交易所" target="_blank">洲际交易所</a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.tocom.or.jp/" title="东京工业交易所" target="_blank">东京工业交易所</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="link-bot-text">
+                        <span><a href="./zoujinyongan.html?jumpMark=3#peopleGs">人员公示</a></span><span>|</span><span><a href="./fuzhu/show-8.html">投诉及信访信息公示</a></span><span>|</span><span>咨询热线：<b>400-700-7878</b></span>
+                    </div>
+
+                </div>
+            </div>
+
+            <ul class="qrcode">
+                <li style=" width:96px;">
+                    <img src="./images/footerimg/qrcode-1.jpg" alt="" />
+                    <p>扫码关注永安期货公众号</p>
+                </li>
+                <li style=" width:96px;">
+                    <img src="./images/footerimg/qrcode-2.jpg" alt="" />
+                    <p>扫码下载永安理财App</p>
+                </li>
+                <li style=" width:96px;">
+                    <img src="./images/footerimg/qrcode-3.jpg" alt="" />
+                    <p>扫码下载源点资讯</p>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-bot">
+            <p><span>本站已支持IPV6访问</span><img src="./images/ipv6_logo.jpg" alt="" style=" width:28px; height:14px;"></p>
+            <p>CopyRight<span>永安期货股份有限公司版权所有</span>|<span><a href="http://beian.miit.gov.cn" target="_blank" style=" font-size:12px;">浙ICP备15012073号-1</a></span>|<span>浙公网安备</span>33010302000574号</p>
+        </div>
+    </div>
+</footer>
+<script src="./js/jquery-s.min.js"></script>
+<!--[if IE 8]>
+<script src="./js/jquery-j.min.js"></script>
+<![endif]-->
+<script src="./js/footer.js"></script>
+
+    <script src="/scripts/jquery/jquery.pagination.js"></script>
+    <script src="./js/ajax.js"></script>
+<script src="./js/assetsManagement.js"></script>
+<!--产品公告-->
+<script id="chanpingonggaolist" type="text/html">
+{{# for(var i = 0; i < d.length; i++){ }}
+	<tr>
+        <td>
+            <a href="/chanpingonggao/show-{{d[i].id}}.html" >{{d[i].title}}</a>
+        </td>
+        <td>
+            {{d[i].add_time}}
+        </td>
+    </tr>
+{{# } }}
+</script>
+<!--人员公示-->
+<script id="renyuangongshilist" type="text/html">
+{{# for(var i = 0; i < d.length; i++){ }}
+	<tr>
+        <td>
+            <a href="/renyuangongshi/show-{{d[i].id}}.html" >{{d[i].title}}</a>
+        </td>
+        <td>
+            {{d[i].add_time}}
+        </td>
+    </tr>
+{{# } }}
+</script>
+</body>
+</html>
